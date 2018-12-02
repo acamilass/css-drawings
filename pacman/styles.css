@@ -1,0 +1,93 @@
+body {
+    background: #0C262A;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 15%;
+    width: 800px;
+    height: 300px;
+    background: none;
+}
+
+.pacman {
+    position: absolute;
+    width: 27%;
+    height: 70%;
+    top: 15%;
+    border-radius: 50%;
+    background: #FFE66D;
+}
+
+.eye {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 25%;
+    right: 35%;
+    border-radius: 50%;
+    background: black;
+}
+
+.mouth {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    top: 2%;
+    right: -30%;
+    background: #0C262A;
+    -webkit-clip-path: polygon(69% 30%, 14% 50%, 69% 70%);
+    clip-path: polygon(69% 30%, 14% 50%, 69% 70%);
+}
+
+.food {
+    position: absolute;
+    width: 4%;
+    height: 10%;
+    top: 45%;
+    left: 35%;
+    border-radius: 50%;
+    background: white;
+}
+
+.food-2 {
+    position: absolute;
+    width: 4%;
+    height: 10%;
+    top: 45%;
+    left: 45%;
+    border-radius: 50%;
+    background: white;
+}
+
+.food-3 {
+    position: absolute;
+    width: 4%;
+    height: 10%;
+    top: 45%;
+    left: 55%;
+    border-radius: 50%;
+    background: white;
+}
+
+.food-4 {
+    position: absolute;
+    width: 4%;
+    height: 10%;
+    top: 45%;
+    left: 65%;
+    border-radius: 50%;
+    background: white;
+}
+
+.food-5 {
+    position: absolute;
+    width: 4%;
+    height: 10%;
+    top: 45%;
+    left: 75%;
+    border-radius: 50%;
+    background: white;
+}
