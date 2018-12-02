@@ -1,0 +1,360 @@
+body {
+    background: #2D4739;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 6%;
+    width: 500px;
+    height: 500px;
+    background: none;
+}
+
+.hairline {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(
+      47% 73%, 
+      28% 82%,     
+      34% 71%,
+
+      18% 63%, 
+      32% 53%, 
+      18% 38%,
+      
+      33% 38%, 
+      30% 20%, 
+      44% 28%, 
+      
+      50% 13%, 
+      
+      57% 28%, 
+      71% 20%, 
+      68% 38%,
+      
+      81% 38%, 
+      70% 53%, 
+      83% 63%,
+      
+      68% 70%, 
+      75% 81%, 
+      50% 73%);
+    
+    transform: scale(1.25);
+    top: -5%;
+    background: black;
+
+}
+
+.hair {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(
+      47% 73%, 
+      28% 82%,     
+      34% 71%,
+
+      18% 63%, 
+      32% 53%, 
+      18% 38%,
+      
+      33% 38%, 
+      30% 20%, 
+      44% 28%, 
+      
+      50% 13%, 
+      
+      57% 28%, 
+      71% 20%, 
+      68% 38%,
+      
+      81% 38%, 
+      70% 53%, 
+      83% 63%,
+      
+      68% 70%, 
+      75% 81%, 
+      50% 73%);
+    
+    transform: scale(1.23);
+    top: -4.8%;
+    background: #ACD4E5;
+}
+
+.head-outline {
+    position: absolute;
+    width: 40.6%;
+    height: 60.6%;
+    left: 30.7%;
+    top: 20.7%;
+    z-index: 3;
+    border-radius: 100px;
+    background: black;
+}
+
+.head {
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    left: 31%;
+    top: 21%;
+    z-index: 4;
+    border-radius: 99px;
+    background: #D7C9BE;
+    box-shadow: 0 0 20px #666;
+}
+
+.eyebrow {
+    position: absolute;
+    width: 90%;
+    height: 6%;
+    left: 6%;
+    top: 27%;
+    z-index: 5;
+    border-radius: 50px;
+    background: #ACD4E5;
+    box-shadow: 0 0 20px #666;
+}
+
+.left-eye {
+    position: absolute;
+    width: 35%;
+    height: 23%;
+    left: 9%;
+    top: 32%;
+    z-index: 4;
+    border-radius: 50%;
+    background: radial-gradient(white, #dddddd);
+    box-shadow: 0 3px 7px #999;
+}
+
+.right-eye {
+    position: absolute;
+    width: 35%;
+    height: 23%;
+    left: 55%;
+    top: 32%;
+    z-index: 4;
+    border-radius: 50%;
+    background: radial-gradient(white, #dddddd);
+    box-shadow: 0 3px 7px #999;
+}
+
+.eyelid {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: #D7C9BE;
+    border-radius: 100px 100px 0 0;
+    box-shadow: 0 1px 1px #999;
+}
+
+.pupil {
+    position: absolute;
+    width: 22%;
+    height: 20%;
+    left: 18%;
+    top: 43%;
+    border-radius: 50%;
+    background: black;
+}
+
+.left-ear {
+    position: absolute;
+    width: 12%;
+    height: 12%;
+    left: 25%;
+    bottom: 36%;
+    border-radius: 50%;
+    background: #D7C9BE;
+    box-shadow: 1px 1px 25px #333;
+}
+
+.right-ear {
+    position: absolute;
+    width: 12%;
+    height: 12%;
+    right: 24%;
+    bottom: 36%;
+    border-radius: 50%;
+    background: #D7C9BE;
+    box-shadow: 1px 1px 25px #333;
+}
+
+.nose {
+    position: absolute;
+    width: 11%;
+    height: 17%;
+    top: 49%;
+    left: 43%;
+    border-radius: 100px;
+    background: #D7C9BE;
+    box-shadow: 0 4px 2px #999;
+}
+
+.mouth {
+    position: absolute;
+    width: 60%;
+    height: 15%;
+    bottom: 10%;
+    left: 20%;
+    z-index: 6;
+    border-radius: 100px;
+    background: #B20020;
+    box-shadow: 0 2px 7px #999;
+}
+
+.teeth-1 {
+    position: absolute;
+    width: 12%;
+    height: 22%;
+    background: white;
+    top: 0%;
+    left: 18%;
+    border-radius: 25px 0 100px 100px;
+    box-shadow: 0px 1px 1px #333;
+}
+
+.teeth-2 {
+    position: absolute;
+    width: 12%;
+    height: 22%;
+    background: white;
+    top: 0%;
+    left: 30%;
+    border-radius: 25px 0 100px 100px;
+    box-shadow: 0px 1px 1px #333;
+}
+
+.teeth-3 {
+    position: absolute;
+    width: 12%;
+    height: 22%;
+    background: white;
+    top: 0%;
+    left: 42%;
+    border-radius: 25px 0 100px 100px;
+    box-shadow: 0px 1px 1px #333;
+}
+
+.teeth-4 {
+    position: absolute;
+    width: 12%;
+    height: 22%;
+    background: white;
+    top: 0%;
+    left: 54%;
+    border-radius: 25px 0 100px 100px;
+    box-shadow: 0px 1px 1px #333;
+}
+
+.teeth-5 {
+    position: absolute;
+    width: 12%;
+    height: 22%;
+    background: white;
+    top: 0%;
+    left: 66%;
+    border-radius: 25px 0 100px 100px;
+    box-shadow: 0px 1px 1px #333;
+}
+
+.teeth-6 {
+    position: absolute;
+    width: 12%;
+    height: 22%;
+    background: white;
+    bottom: 0%;
+    left: 18%;
+    border-radius: 25px 0 100px 100px;
+    box-shadow: 0px 1px 1px #333;
+    transform: rotate(180deg);
+}
+
+.teeth-7 {
+    position: absolute;
+    width: 12%;
+    height: 22%;
+    background: white;
+    bottom: 0%;
+    left: 30%;
+    border-radius: 25px 0 100px 100px;
+    box-shadow: 0px 1px 1px #333;
+    transform: rotate(180deg);
+}
+
+.teeth-8 {
+    position: absolute;
+    width: 12%;
+    height: 22%;
+    background: white;
+    bottom: 0%;
+    left: 42%;
+    border-radius: 25px 0 100px 100px;
+    box-shadow: 0px 1px 1px #333;
+    transform: rotate(180deg);
+}
+
+.teeth-9 {
+    position: absolute;
+    width: 12%;
+    height: 22%;
+    background: white;
+    bottom: 0%;
+    left: 54%;
+    border-radius: 25px 0 100px 100px;
+    box-shadow: 0px 1px 1px #333;
+    transform: rotate(180deg);
+}
+
+.teeth-10 {
+    position: absolute;
+    width: 12%;
+    height: 22%;
+    background: white;
+    bottom: 0%;
+    left: 66%;
+    z-index: 5;
+    border-radius: 25px 0 100px 100px;
+    box-shadow: 0px 1px 1px #333;
+    transform: rotate(180deg);
+}
+
+.tongue {
+    position: absolute;
+    width: 20%;
+    height: 45%;
+    background: #d4343e;
+    bottom: 12%;
+    left: 38%;
+    border-radius: 100px 100px 0 0;
+    box-shadow: 0 3px 7px #333;
+}
+
+.stuff {
+    position: absolute;
+    width: 7%;
+    height: 8%;
+    bottom: 3%;
+    right: 39%;
+    z-index: 4;    
+    background: #CAE2BA;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 1px 22px  #333;
+}
+
+.stuff-2 {
+    position: absolute;
+    width: 7%;
+    height: 20%;
+    bottom: -5%;
+    right: 32%;
+    z-index: 4;
+    background: #CAE2BA;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 5px #555;
+}
