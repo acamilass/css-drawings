@@ -49,7 +49,7 @@ body {
     top: 45%;
     left: 35%;
     border-radius: 50%;
-    background: white;
+    background: #F7FFF7;
 }
 
 .food-2 {
@@ -59,7 +59,7 @@ body {
     top: 45%;
     left: 45%;
     border-radius: 50%;
-    background: white;
+    background: #F7FFF7;
 }
 
 .food-3 {
@@ -69,7 +69,7 @@ body {
     top: 45%;
     left: 55%;
     border-radius: 50%;
-    background: white;
+    background: #F7FFF7;
 }
 
 .food-4 {
@@ -79,7 +79,7 @@ body {
     top: 45%;
     left: 65%;
     border-radius: 50%;
-    background: white;
+    background: #F7FFF7;
 }
 
 .food-5 {
@@ -89,5 +89,5 @@ body {
     top: 45%;
     left: 75%;
     border-radius: 50%;
-    background: white;
+    background: #F7FFF7;
 }
