@@ -1,0 +1,40 @@
+body {
+    background: #F5FAFC;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 3%;
+    width: 800px;
+    height: 600px;
+    background: #C4DEED;
+}
+
+.bb8 {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    top: 222px;
+    left: 180px;
+}
+
+.bb8-body {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: solid 8px #244356;
+    overflow: hidden;
+    background: #EBF2FA;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border: 8px solid #244356;
+    background-color: #F9A11B;
+    border-radius: 50%;
+    position: absolute;
+}
